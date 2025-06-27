@@ -15,4 +15,9 @@ int main(){
     printf("Dice 2: %d\n",y);
     total = x+y;
     printf("Total value: %d\n",total);
+    if(total>=8){
+        printf("You won\n");
+    }else{
+        printf("You lost\n");
+    }
 }
