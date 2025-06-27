@@ -8,7 +8,7 @@ int main(){
     int x=0;
     int y=0;
     int total=0;
-    char name;
+    char name[15];
 
     printf("What is your name?\n");
     scanf("%s",name);
@@ -21,8 +21,8 @@ int main(){
     total = x+y;
     printf("Total value: %d\n",total);
     if(total>=8){
-        printf("You won\n");
+        printf("%s won\n",name);
     }else{
-        printf("You lost\n");
+        printf("%s lost\n",name);
     }
 }
