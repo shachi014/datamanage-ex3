@@ -8,6 +8,11 @@ int main(){
     int x=0;
     int y=0;
     int total=0;
+    char name;
+
+    printf("What is your name?\n");
+    scanf("%s",name);
+    printf("Hello, %s\n",name);
     printf("Rolling dice...\n");
     x = (rand()%6)+1;
     y = (rand()%6)+1;
